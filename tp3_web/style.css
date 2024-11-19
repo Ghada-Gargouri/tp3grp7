@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: silver;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #d8eafd; /* Light blue background */
+    padding:  80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-aligns the main content */
+    position: relative;
+    border-bottom: 10px solid #d8eafd;
+    text-align: center;
+    margin: 30px;
+  
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+header .age,
+header .specialite {
+    font-size: 18px;
+    margin: 5px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+header .adresse {
+    font-size: 14px;
+    position: absolute;
+    top: 250px; /* Adjust this value as needed to position it below the specialty */
+    right: 20px;
+     text-align: right;
+}
+
+header .adresse a {
+    color: red;
+    text-decoration: none;
+}
+
+header .adresse a:hover {
+    text-decoration: underline;
+}
+
+/* Section Titles */
+section h2 {
+    font-size: 16px;
+    color: #004080;
+    background-color: #d8eafd; /* Light blue background */
+    padding: 5px 10px;
+    margin: 0;
+    font-weight: bold;
+    }
+
+/* Year Span */
+.annee {
+    font-weight: bold;
+    color: red; /* Red color for years */
+    margin-right: 90px;
+    margin-left: 120px;
+    display: inline-block;
+    width: 70px;
+}
+
+/* Experience Section */
+section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+section ul li {
+    margin: 5px 0;
+}
+
+/* Informatique and Langues Section */
+ul li h3 {
+    display: inline;
+    font-weight: bold;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Section Container */
+section {
+    margin: 10px 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Subsection Styling */
+.informatique ul li,
+.langues ul li {
+    list-style-type: none;
+}
+
+.informatique h3,
+.langues h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #004080; /* Darker blue color for subsection headers */
+    margin: 5px 0;
+}
